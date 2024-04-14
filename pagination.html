@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Pagination Example</title>
+ <style>
+ body {
+ font-family: Arial, sans-serif;
+ }
+.pagination {
+ text-align: center;
+ margin-top: 20px;
+ }
+ .pagination a {
+ display: inline-block;
+ padding: 8px 16px;
+ text-decoration: none;
+ color: #333;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ margin: 0 5px;
+ }
+ .pagination a.active {
+ background-color: #007bff;
+ color: #fff;
+ }
+ .pagination a:hover {
+ background-color: #ddd;
+ }
+ .pagination .prev,
+ .pagination .next {
+ font-weight: bold;
+ }
+</style>
+ </head>
+ <body>
+ <div class="content">
+ </div>
+ <div class="pagination">
+ <a href="#" class="prev">&laquo; Previous</a>
+ <a href="#" class="page active">1</a>
+ <a href="#" class="page">2</a>
+ <a href="#" class="page">3</a>
+ <a href="#" class="next">Next &raquo;</a>
+ </div>
+ </body>
+ </html>
